@@ -1,0 +1,17 @@
+C:\Users\tomka\source\repos\SharpML\bin\x86\Debug\SharpML.exe
+C:\Users\tomka\source\repos\SharpML\bin\x86\Debug\SharpML.pdb
+C:\Users\tomka\source\repos\SharpML\obj\x86\Debug\SharpML.csprojAssemblyReference.cache
+C:\Users\tomka\source\repos\SharpML\obj\x86\Debug\SharpML.csproj.CoreCompileInputs.cache
+C:\Users\tomka\source\repos\SharpML\obj\x86\Debug\SharpML.csproj.CopyComplete
+C:\Users\tomka\source\repos\SharpML\obj\x86\Debug\SharpML.exe
+C:\Users\tomka\source\repos\SharpML\obj\x86\Debug\SharpML.pdb
+C:\Users\tomka\source\repos\SharpML\bin\x86\Debug\SharpML.exe.config
+C:\Users\tomka\source\repos\SharpML\bin\x86\Debug\Microsoft.Dynamic.dll
+C:\Users\tomka\source\repos\SharpML\bin\x86\Debug\Microsoft.Scripting.dll
+C:\Users\tomka\source\repos\SharpML\bin\x86\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\tomka\source\repos\SharpML\bin\x86\Debug\Microsoft.Dynamic.xml
+C:\Users\tomka\source\repos\SharpML\bin\x86\Debug\Microsoft.Scripting.xml
+C:\Users\tomka\source\repos\SharpML\bin\x86\Debug\Microsoft.Scripting.Metadata.xml
+C:\Users\tomka\source\repos\SharpML\obj\x86\Debug\SharpML.csproj.ResolveComReference.cache
+C:\Users\tomka\source\repos\SharpML\obj\x86\Debug\SharpML.Properties.Resources.resources
+C:\Users\tomka\source\repos\SharpML\obj\x86\Debug\SharpML.csproj.GenerateResource.cache

@@ -1,0 +1,6 @@
+C:\Users\tomka\source\repos\SharpML\bin\Debug\SharpML.exe
+C:\Users\tomka\source\repos\SharpML\bin\Debug\SharpML.pdb
+C:\Users\tomka\source\repos\SharpML\obj\Debug\SharpML.csprojAssemblyReference.cache
+C:\Users\tomka\source\repos\SharpML\obj\Debug\SharpML.csproj.CoreCompileInputs.cache
+C:\Users\tomka\source\repos\SharpML\obj\Debug\SharpML.exe
+C:\Users\tomka\source\repos\SharpML\obj\Debug\SharpML.pdb
