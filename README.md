@@ -12,7 +12,8 @@ The tool is discussed in more detail on our blog here: but is summarised below a
 
 ## Machine Learning workflow
 
-(/img/github.png)
+
+[![GUI VIEW](/img/github.png)
 
 ## Usage:
 
