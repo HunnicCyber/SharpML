@@ -1,4 +1,4 @@
-# Fene
+# SharpML
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
@@ -6,9 +6,13 @@ SharpML is a proof of concept Active Directory data mining tool using Machine Le
 
 The tool is discussed in more detail on our blog here: but is summarised below also:
 
+## Active Directory Operations
+
 [![GUI VIEW](/img/github.png)
 
-## usage:
+## Machine Learning workflow
+
+## Usage:
 
 ```
 > SharpML.exe
