@@ -8,9 +8,11 @@ The tool is discussed in more detail on our blog here: but is summarised below a
 
 ## Active Directory Operations
 
-[![GUI VIEW](/img/github.png)
+
 
 ## Machine Learning workflow
+
+(/img/github.png)
 
 ## Usage:
 
