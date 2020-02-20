@@ -2,29 +2,25 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-SharpML is a proof of concept Active Directory data mining tool using Machine Learning in Python and C#.
+SharpML is a proof of concept file share data mining tool using Machine Learning in Python and C#.
 
 The tool is discussed in more detail on our blog here: but is summarised below also:
 
-## Active Directory Operations
+SharpML is C# and Python based tool that performs a number of operations with a view to mining file shares, querying Active Directory for users, dropping an ML model and associated rules, perfoming Active Directory authentication checks, with a view to automating the process of hunting for passwords in file shares.
 
+Currently it allows for a single file share to be assessed.
 
+You will need to have read access to the file share you are targeting, after which the tool will perform its activities mostly autonomously.
 
-## Machine Learning workflow
-
-
-[![GUI VIEW](/img/github.png)
 
 ## Usage:
 
 ```
 > SharpML.exe
 
-SharpML: This tool will mine Active Directory, taking all text based files, line by line and copy them to the workstation. It will then create a list of AD users and write these to the workstation also. It will then drop the Machine Learning algorithm to the temp folder, and feed in the raw data and evaluate for password likelyhood where line exist with a username. If the check parameter is passed, these founds user/password combinations will be validated against a domain controller
-
-Usage:
-
-Standard Run:   SharpML.exe
-
-Check Run:    SharpML.exe check
 ```
+
+## Authors
+
+Marco Valentini
+Tom Kallo
