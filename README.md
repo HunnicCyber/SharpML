@@ -26,4 +26,5 @@ There a compiled release in the release section, and it is to be noted that this
 ## Authors
 
 Marco Valentini
+
 Tom Kallo
