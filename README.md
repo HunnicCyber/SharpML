@@ -8,7 +8,9 @@ The tool is discussed in more detail on our blog here, but is summarised below a
 
 SharpML is C# and Python based tool that performs a number of operations with a view to mining file shares, querying Active Directory for users, dropping an ML model and associated rules, perfoming Active Directory authentication checks, with a view to automating the process of hunting for passwords in file shares by feeding the mined data into the ML model.
 
-The ML model is written in Python, and has been developed using a custom algorithm to identify likelyhoods of passwords. The model has been compiled with PyInstaller and sits as resource file in the C# wrapper, which interops between itself, the data and the model.
+The ML model is written in Python, and has been developed using a custom algorithm to identify likelyhoods of passwords. The model has been compiled with PyInstaller and sits as resource file in the C# wrapper, which interops between itself, the data and the model. THe program logic can be seen below:
+
+
 
 Currently it allows for a single file share to be assessed.
 
