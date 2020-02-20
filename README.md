@@ -4,7 +4,7 @@
 
 SharpML is a proof of concept file share data mining tool using Machine Learning in Python and C#.
 
-The tool is discussed in more detail on our blog here: but is summarised below also:
+The tool is discussed in more detail on our blog here, but is summarised below also:
 
 SharpML is C# and Python based tool that performs a number of operations with a view to mining file shares, querying Active Directory for users, dropping an ML model and associated rules, perfoming Active Directory authentication checks, with a view to automating the process of hunting for passwords in file shares by feeding the mined data into the ML model.
 
