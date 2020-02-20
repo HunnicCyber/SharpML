@@ -22,7 +22,7 @@ namespace SharpML.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace SharpML.Properties {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SharpML.Properties.Resources", typeof(Resources).Assembly);
@@ -51,12 +51,108 @@ namespace SharpML.Properties {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 123456
+        ///password
+        ///12345678
+        ///qwerty
+        ///123456789
+        ///12345
+        ///1234
+        ///111111
+        ///1234567
+        ///dragon
+        ///123123
+        ///baseball
+        ///abc123
+        ///football
+        ///monkey
+        ///letmein
+        ///696969
+        ///shadow
+        ///master
+        ///666666
+        ///qwertyuiop
+        ///123321
+        ///mustang
+        ///1234567890
+        ///michael
+        ///654321
+        ///pussy
+        ///superman
+        ///1qaz2wsx
+        ///7777777
+        ///fuckyou
+        ///121212
+        ///000000
+        ///qazwsx
+        ///123qwe
+        ///killer
+        ///trustno1
+        ///jordan
+        ///jennifer
+        ///zxcvbnm
+        ///asdfgh
+        ///hunter
+        ///buster
+        ///soccer
+        ///harley
+        ///batman
+        ///andrew
+        ///tigger
+        ///sunshine
+        ///iloveyou
+        ///fuckme
+        ///2000
+        ///charlie
+        ///robert
+        ///thomas
+        ///hockey
+        ///ranger
+        ///daniel
+        ///starwars
+        ///klaster
+        ///112233
+        ///george
+        ///asshole
+        ///computer
+        ///michelle
+        ///jessica
+        ///pepper
+        ///1 [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string _10k {
+            get {
+                return ResourceManager.GetString("_10k", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        public static byte[] model {
+            get {
+                object obj = ResourceManager.GetObject("model", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        public static byte[] rules {
+            get {
+                object obj = ResourceManager.GetObject("rules", resourceCulture);
+                return ((byte[])(obj));
             }
         }
     }

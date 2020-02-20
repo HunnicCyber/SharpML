@@ -23,20 +23,6 @@ namespace SharpML
             return userNames;
         }
 
-        public static List<string> ADcomputer()
-        {
-            DirectoryEntry directoryEntry = new DirectoryEntry("WinNT://" + Domain.GetComputerDomain());
-            List<string> hostNames = new List<string>();
-
-            foreach (DirectoryEntry child in directoryEntry.Children)
-            {
-                if (child.SchemaClassName == "Computer")
-                {
-                    hostNames.Add(child.Name);
-                }
-
-            }
-            return hostNames;
-        }
+        
     }
 }

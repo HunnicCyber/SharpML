@@ -3,9 +3,9 @@ using System.DirectoryServices.AccountManagement;
 
 namespace SharpML
 {
-    class ADAuth
+    public class ADAuth
     {
-        public bool Authenticate(string userName, string password, string domain)
+        public static bool Authenticate(string userName, string password, string domain)
         {
             bool authentic = false;
             try

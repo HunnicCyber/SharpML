@@ -6,67 +6,31 @@ using System.Text;
 
 namespace SharpML
 {
-    class dataMiner
+    public class dataMiner
     {
-        static double directorycount = 0;
-        static double filecount = 0;
-        static List<string> extensions = new List<string> { "bat", "vbs", "cmd", "ps1", "sh", "pl", "txt", "xml", "cfg", "conf", "ini", "vba", "inf", "prf", "json", "cmp" };
-        private static void ProcessDirectory(List<string> directoryPaths, List<string> extensions)
+        
+        public static void ProcessDirectory(string networkshare)
         {
-
-            foreach (var path in directoryPaths)
+            List<string> extensions = new List<string> { "bat", "vbs", "cmd", "ps1", "sh", "pl", "txt", "xml", "cfg", "conf", "ini", "vba", "inf", "prf", "json", "cmp", "sql" };
+            foreach (var file in Directory.EnumerateFiles(networkshare, "*.*", SearchOption.AllDirectories))
             {
-                directorycount++;
-                List<string> subdirs = new List<string>();
-                try
-                {
 
-                    foreach (var e in Directory.GetDirectories(path))
+                string ext = Path.GetExtension(file);
+                if (extensions.Any(ext.Contains))
                     {
-                        subdirs.Add(e);
-                    }
-                }
-                catch 
-                {
-                    
-                }
-                try
-                {
-                    var entries = System.IO.Directory.GetFiles(path, "*.*", System.IO.SearchOption.TopDirectoryOnly);
-
-                    foreach (var files in entries)
+                    var fltext = File.ReadAllLines(file);
+                    foreach (string fl in fltext)
                     {
-                        filecount++;
-                        try
+                        using (System.IO.StreamWriter filered = new System.IO.StreamWriter(System.Environment.GetEnvironmentVariable("TEMP") + @"\model_data.txt", true))
                         {
-
-                            var fltext = File.ReadAllLines(files);
-                            foreach (string fl in fltext)
-                            {
-                                using (System.IO.StreamWriter file = new System.IO.StreamWriter(System.Environment.GetEnvironmentVariable("TEMP") + @"\model_data.txt", true))
-                                {
-                                    file.WriteLine(fl);
-                                }
-                            }
-                            
-                            
-                        }
-                        catch
-                        {
+                            filered.WriteLine(fl);
                         }
                     }
                 }
-                catch 
+                else
                 {
+                    continue;
                 }
-                if (subdirs.Count() > 0)
-                    try
-                    {
-                        ProcessDirectory(subdirs, extensions);
-                    }
-                    catch
-                    {
-                    }
             }
         }
     }
