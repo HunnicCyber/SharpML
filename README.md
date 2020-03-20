@@ -20,9 +20,15 @@ There a compiled release in the release section, and it is to be noted that this
 
 ## Usage:
 
+cmd.exe
 ```
-> SharpML.exe
+C:\> SharpML.exe -u \\fileshare\d$
+```
 
+Cobalt Strike
+
+```
+> execute-assembly SharpML.exe -u \\fileshare\d$
 ```
 
 ## Authors
