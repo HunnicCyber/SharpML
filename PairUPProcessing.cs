@@ -1,7 +1,4 @@
 ﻿using System;
-using System.DirectoryServices;
-using System.DirectoryServices.ActiveDirectory;
-using System.IO;
 using System.Text.RegularExpressions;
 
 namespace SharpML
@@ -42,7 +39,7 @@ namespace SharpML
             }
             catch
             {
-                Console.WriteLine("Oops, something went wrong!");
+                
             }
 
 
