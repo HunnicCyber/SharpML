@@ -40,9 +40,9 @@ namespace SharpML
                     }
                 }
             }
-            catch (IndexOutOfRangeException ex)
+            catch
             {
-                // handle error here
+                Console.WriteLine("Oops, something went wrong!");
             }
 
 
