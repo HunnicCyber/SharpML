@@ -20,7 +20,7 @@ namespace SharpML
 
             if (_share_unc_path == null)
             {
-                Console.WriteLine("Please enter an option");
+                Console.WriteLine("Please enter the fileshare that you wish to assess");
                 Environment.Exit(0);
             }
             Console.WriteLine("\r\n ---------- 1. Harvesting data from fileshare ----------\r\n");
@@ -58,7 +58,7 @@ namespace SharpML
                 Environment.Exit(1);
             }
             Console.WriteLine("\r\n ---------- 4. Piping data to SharpML algorithm ----------\r\n");
-            string data_to_process = PerformModelWrapperInterop.PerformDataPiping(dropped_rules, mod_data, ad_user_txt_path, dropped_algo, "false");
+            string data_to_process = PerformModelWrapperInterop.PerformDataPiping(dropped_rules, mod_data, ad_user_txt_path, dropped_algo, "false", dropped_10k);
 
             if (data_to_process != null)
             {
@@ -80,9 +80,7 @@ namespace SharpML
                 Environment.Exit(1);
             }
 
-
-
-
+                       
         }
 
         public static string GetRandomString()
