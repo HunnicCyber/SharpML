@@ -1,6 +1,5 @@
 # SharpML
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 SharpML is a proof of concept file share data mining tool using Machine Learning in Python and C#.
 
